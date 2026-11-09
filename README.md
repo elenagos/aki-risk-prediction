@@ -7,8 +7,6 @@ A team research project exploring acute kidney injury (AKI) risk prediction in a
 **[Early Prediction of Acute Kidney Injury Risk after Nephrotoxic Antibiotic Exposure](https://openreview.net/forum?id=WiDXeSmAhr)**  
 Gostiukhina, E., et al. — BNAIC/BeNeLearn 2026, poster presentation.
 
-## My Contribution — Elena Gostiukhina
-
 My work focused primarily on model development, clinical feature engineering, and model interpretation:
 
 - Engineered clinical features and addressed class imbalance using class weighting and decision-threshold tuning.
@@ -61,7 +59,7 @@ Dependencies are currently unpinned. This source export has been checked for Pyt
 
 ## Data and reproducibility
 
-This public copy includes source code only. Patient-level datasets, derived row-level outputs, trained models, and the original generated analysis outputs are excluded. Access to the source data must be obtained separately through the applicable data provider process.
+This public copy includes source code only. Used dataset is from Mimic-IV, doesn't allow open source publications. Patient-level datasets, derived row-level outputs, trained models, and the original generated analysis outputs are excluded. Access to the source data must be obtained separately through the applicable data provider process.
 
 The archive used to prepare this repository does not contain Git history. Original source attribution comments have been preserved.
 
@@ -69,8 +67,7 @@ The archive used to prepare this repository does not contain Git history. Origin
 
 Originally developed as a Maastricht University group project: [original GitLab repository](https://gitlab.maastrichtuniversity.nl/group-05-p-22/aki).
 
-This is a portfolio copy of collaborative work. The contribution summary above describes my role in the project. Original file headers identifying main writers, reviewers, and contributors have been preserved to acknowledge the team’s work.
 
 ## Scope and limitations
 
-This is a research prototype, not a clinically validated decision support system. Reported performance depends on feature availability, evaluation splits, and outcome definitions. Renal measurements can overlap with the definition of AKI, so high discrimination must be interpreted alongside temporal and target leakage checks. This copy does not claim independent external validation.
+This is a research project, not a clinically validated decision support system. Reported performance depends on feature availability, evaluation splits, and outcome definitions. Renal measurements can overlap with the definition of AKI, so high discrimination must be interpreted alongside temporal and target leakage checks. 
