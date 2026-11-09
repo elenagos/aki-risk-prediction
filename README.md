@@ -2,6 +2,21 @@
 
 A team research project exploring acute kidney injury (AKI) risk prediction in an ICU cohort using MIMIC-derived data. The project combines clinical data preparation, machine learning, survival analysis, and a Streamlit dashboard with SHAP explanations.
 
+## Publication
+
+**[Early Prediction of Acute Kidney Injury Risk after Nephrotoxic Antibiotic Exposure](https://openreview.net/forum?id=WiDXeSmAhr)**  
+Gostiukhina, E., et al. — BNAIC/BeNeLearn 2026, poster presentation.
+
+## My Contribution — Elena Gostiukhina
+
+My work focused primarily on model development, clinical feature engineering, and model interpretation:
+
+- Engineered clinical features and addressed class imbalance using class weighting and decision-threshold tuning.
+- Contributed to missing-data imputation, percentile-based outlier clipping, and automated data-quality checks.
+- Trained and optimized logistic regression and XGBoost models using patient-grouped cross-validation with GroupKFold.
+- Identified the top 15 predictors using SHAP and contributed explanations used in the Streamlit dashboard for patient-level AKI risk assessment.
+- Coauthored the research paper presented at BNAIC/BeNeLearn 2026.
+
 ## Research and methods
 
 - **Risk prediction:** compare logistic regression, decision trees, random forests, XGBoost, and a stacking ensemble for the `aki_day7` outcome.
@@ -54,7 +69,7 @@ The archive used to prepare this repository does not contain Git history. Origin
 
 Originally developed as a Maastricht University group project: [original GitLab repository](https://gitlab.maastrichtuniversity.nl/group-05-p-22/aki).
 
-This is a portfolio copy of collaborative work. File headers identify main writers, reviewers, and contributors where recorded; they should be consulted when attributing individual components. Elena Gostiukhina is credited in the source as a reviewer of the RQ1 augmented model and a contributor to model configuration and RQ3 scenario analysis, among other file-level credits.
+This is a portfolio copy of collaborative work. The contribution summary above describes my role in the project. Original file headers identifying main writers, reviewers, and contributors have been preserved to acknowledge the team’s work.
 
 ## Scope and limitations
 
