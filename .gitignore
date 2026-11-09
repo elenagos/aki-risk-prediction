@@ -1,0 +1,32 @@
+# Restricted datasets and patient-level artifacts
+p22/data/
+data/
+*.csv
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.db
+*.sqlite*
+# Trained models and generated analysis outputs
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+p22/Analysis/results/
+p22/Analysis/plots/
+p22/Analysis/model/results/
+p22/Analysis/model/models/
+# Local environment and credentials
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store
